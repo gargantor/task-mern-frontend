@@ -8,7 +8,7 @@ import axios from "axios";
 
 const container = document.getElementById('root');
 const root = createRoot(container);
-axios.defaults.baseURL = 'http://localhost:8000/'
+axios.defaults.baseURL = 'https://taskmernbackend1-vcx6jfnr.b4a.run/'
 
 root.render(
     <>
